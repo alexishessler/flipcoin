@@ -1,0 +1,16 @@
+.Coin img {
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+}
+
+.Coin-rotating {
+    animation: spin 1s 1 linear;
+}
+
+@keyframes spin {
+    0%  {transform: rotate(0deg);}
+    25% {transform: rotate(360deg);} 
+    75% {transform: rotate(0deg);} 
+    100% {transform: rotate(360deg);}   
+}
